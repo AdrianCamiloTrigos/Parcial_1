@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color: #ffffffe3;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.Barra_menu{
+    display: flex ;
+    background-color: #000000;
+    border: 1px solid #000000;
+    height: 80px;
+    line-height: 80px;
+    padding-left: 20px;
+}
+.botones_menu{
+    padding: 5px;
+    text-decoration:none;
+    color: aliceblue;
+    font-family:monospace;
+    padding-left: 15px;
+}
+
+.logo{
+    margin-top: 10px;
+}
+
+.menu{
+    max-height:5% ;
+    padding-top: 30px;
+    margin-left: 60px;
+    display: flex;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.menu2{
+    text-decoration: none;
+    color: #000000;
+}
+
+.contenedor{
+    flex-direction: column;
+}
+
+.imagen_principal{
+    padding-top: 30PX;
+}
+
+.parte1{
+padding-top: 50px;
+}
+
+.imagen1{
+display: flex;
+padding-left: 200px;
+padding-top: 100px;
+}
+
+.texto_imagen1{
+    padding-left: 100px;
+    padding-right: 200px;
+    padding-top: 100px;
+}
+.parte2{
+    padding-top: 100px;
+    display: flex;
+}
+.imagen2{
+    padding-left: 10px;
+    padding-right: 170px;
+}
+.texto_imagen2{
+    padding-left: 200px;
+    padding-top: 80px;
+    padding-right: 100px;
+}
+
+.parte3{
+
+padding-bottom: 100PX;
+
+}
+.imagen3{
+    display: flex;
+    padding-left: 210px;
+    padding-top: 100px;
+}
+.texto_imagen3{
+    padding-left: 100px;
+    padding-right: 200px;
+    padding-top: 100px;
+}

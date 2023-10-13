@@ -1,0 +1,90 @@
+*{
+    margin: 0px; 
+}
+
+body{
+    background-color: #ffffffe3;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Barra_menu {
+    display: flex;
+    background-color: #000000;
+    border: 1px solid #000000;
+    height: 80px;
+    line-height: 80px;
+    padding-left: 20px;
+}
+
+.botones_menu {
+    padding: 5px;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: monospace;
+    padding-left: 15px;
+}
+.logo{
+    margin-top: 10px;
+}
+
+.menu{
+    margin-top: 30px;
+    margin-left: 60px;
+    display: flex;
+}
+
+.menu2 {
+    text-decoration: none;
+    color: black;
+}
+
+.contenedor{
+    flex-direction: column;
+}
+
+.parte1{
+}
+
+.parte2{
+    padding-top: 100px;
+    display: flex;
+}
+
+.parte3{
+    display: flex;
+    padding-bottom: 50px;
+}
+
+#imagen_principal{
+    padding-top: 100px;
+    display: flex;
+}
+
+#imagen_secundaria{
+    padding-left: 50px;
+    padding-right: 120px;
+}
+
+#imagen_terciaria{
+    padding-top: 100px;
+}
+
+.texto_imagen1{
+    padding-left: 50px;
+    padding-top: 100px;
+    padding-right: 100px;
+}
+
+.texto_imagen2{
+    padding-left: 20px;
+    padding-top: 80px;
+    padding-right: 50px;
+    
+}
+
+.texto_imagen3{
+    padding-left: 100px;
+    padding-top: 200px;
+    padding-right: 200px;
+}
+
